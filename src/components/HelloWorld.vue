@@ -5,3 +5,10 @@
     class="logo" />
   <div></div>
 </template>
+
+<style>
+img {
+  padding: 10px;
+  border-radius: 10px;
+}
+</style>
