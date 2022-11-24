@@ -33,7 +33,9 @@ module.exports = {
         test: /\.s?css$/,
         use: [
           'vue-style-loader',
-          'style-loader',
+          // delete for style loader error
+          // style code in vue file generate error.
+          //'style-loader',
           'css-loader',
           'postcss-loader',
           'sass-loader',
